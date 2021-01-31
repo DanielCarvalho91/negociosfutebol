@@ -1,9 +1,11 @@
+import Link from 'next/link';
+
 function Home() {
     return (
         <div>
             <h1>Home</h1>
-            <Link href="/preco.js">
-                <a>Preços</a>
+            <Link href="/preco">
+                <a>Preco</a>
             </Link>
             <Link href="/vagas">
                 <a>Vagas</a>

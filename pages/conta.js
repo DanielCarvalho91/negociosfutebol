@@ -7,9 +7,6 @@ function Conta() {
             <Link href="/">
                 <a>Home</a>
             </Link>
-            <Link href="/preco.js">
-                <a>Preços</a>
-            </Link>
             <Link href="/vagas">
                 <a>Vagas</a>
             </Link>

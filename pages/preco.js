@@ -1,10 +1,9 @@
-function Preco() {
+import Link from 'next/link';
+
+function Home() {
     return (
         <div>
-            <h1>Preços</h1>
-            <Link href="/">
-                <a>Home</a>
-            </Link>
+            <h1>Home</h1>
             <Link href="/vagas">
                 <a>Vagas</a>
             </Link>
@@ -15,4 +14,4 @@ function Preco() {
     )
 };
 
-export default Preco;
+export default Home;

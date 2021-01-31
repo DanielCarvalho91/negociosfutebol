@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function Vagas() {
     return (
         <div>
@@ -5,8 +7,11 @@ function Vagas() {
             <Link href="/">
                 <a>Home</a>
             </Link>
-            <Link href="/preco.js">
-                <a>Preços</a>
+            <Link href="/preco">
+                <a>Preco</a>
+            </Link>
+            <Link href="/vagas">
+                <a>Vagas</a>
             </Link>
             <Link href="/conta">
                 <a>Conta</a>
