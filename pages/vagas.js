@@ -1,12 +1,12 @@
-function Home() {
+function Vagas() {
     return (
         <div>
-            <h1>Home</h1>
+            <h1>Vagas</h1>
+            <Link href="/">
+                <a>Home</a>
+            </Link>
             <Link href="/preco.js">
                 <a>Preços</a>
-            </Link>
-            <Link href="/vagas">
-                <a>Vagas</a>
             </Link>
             <Link href="/conta">
                 <a>Conta</a>
@@ -15,4 +15,4 @@ function Home() {
     )
 };
 
-export default Home;
+export default Vagas;

@@ -1,9 +1,9 @@
-function Home() {
+function Preco() {
     return (
         <div>
-            <h1>Home</h1>
-            <Link href="/preco.js">
-                <a>Preços</a>
+            <h1>Preços</h1>
+            <Link href="/">
+                <a>Home</a>
             </Link>
             <Link href="/vagas">
                 <a>Vagas</a>
@@ -15,4 +15,4 @@ function Home() {
     )
 };
 
-export default Home;
+export default Preco;
